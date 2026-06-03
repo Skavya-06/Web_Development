@@ -1,0 +1,22 @@
+function cd_or_cf(){
+    let cd=40;
+    let cf=120
+    function momo(price){
+        console.log(`Total Price is =${cd+price}`);
+    }
+    function burger(price){
+        console.log(`Total price is =${cf+price}`);
+    }
+    return {momo,burger};
+}
+let meethi=cd_or_cf();
+console.log(meethi);
+meethi.momo(80);
+meethi.burger(100);
+
+
+
+let mohi=cd_or_cf();
+console.log(mohi);
+mohi.momo(120);
+mohi.burger(230);
