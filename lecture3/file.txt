@@ -1,0 +1,120 @@
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1600:12)
+    at require (node:internal/modules/helpers:153:16)
+    at Object.<anonymous> (/Users/kavyasrivastava/June_Mirai_Track/Web_Development_June/lecture2/app.js:3:11)
+    at Module._compile (node:internal/modules/cjs/loader:1854:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kavyasrivastava/June_Mirai_Track/Web_Development_June/lecture2/app.js'
+  ]
+}
+
+Node.js v24.16.0
+kavyasrivastava@Kavyas-MacBook-Air Web_Development_June % node "/Users/kavyasrivastava/June_Mirai_Track/Web_De
+velopment_June/lecture2/app.js"
+Starting...
+/Users/kavyasrivastava/June_Mirai_Track/Web_Development_June/lecture2/cal.js:14
+module.exports = { add, sub, mul };
+                   ^
+
+ReferenceError: add is not defined
+    at Object.<anonymous> (/Users/kavyasrivastava/June_Mirai_Track/Web_Development_June/lecture2/cal.js:14:20)
+    at Module._compile (node:internal/modules/cjs/loader:1854:14)
+    at Object..js (node:internal/modules/cjs/loader:1985:10)
+    at Module.load (node:internal/modules/cjs/loader:1577:32)
+    at Module._load (node:internal/modules/cjs/loader:1379:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1600:12)
+    at require (node:internal/modules/helpers:153:16)
+    at Object.<anonymous> (/Users/kavyasrivastava/June_Mirai_Track/Web_Development_June/lecture2/app.js:3:11)
+    at Module._compile (node:internal/modules/cjs/loader:1854:14)
+
+Node.js v24.16.0
+kavyasrivastava@Kavyas-MacBook-Air Web_Development_June % node "/Users/kavyasrivastava/June_Mirai_Track/Web_De
+velopment_June/lecture2/cal.js"
+kavyasrivastava@Kavyas-MacBook-Air Web_Development_June % node "/Users/kavyasrivastava/June_Mirai_Track/Web_De
+velopment_June/lecture2/cal.js"
+kavyasrivastava@Kavyas-MacBook-Air Web_Development_June % node "/Users/kavyasrivastava/June_Mirai_Track/Web_De
+velopment_June/lecture2/app.js"
+Total sum is =30
+difference is =-10
+product is =200
+kavyasrivastava@Kavyas-MacBook-Air Web_Development_June % node "/Users/kavyasrivastava/June_Mirai_Track/Web_De
+velopment_June/lecture2/app.js"
+/Users/kavyasrivastava/June_Mirai_Track/Web_Development_June/lecture2/app.js:5
+all.call(10,20)
+    ^
+
+TypeError: all.call is not a function
+    at Object.<anonymous> (/Users/kavyasrivastava/June_Mirai_Track/Web_Development_June/lecture2/app.js:5:5)
+    at Module._compile (node:internal/modules/cjs/loader:1854:14)
+    at Object..js (node:internal/modules/cjs/loader:1985:10)
+    at Module.load (node:internal/modules/cjs/loader:1577:32)
+    at Module._load (node:internal/modules/cjs/loader:1379:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.16.0
+kavyasrivastava@Kavyas-MacBook-Air Web_Development_June % node "/Users/kavyasrivastava/June_Mirai_Track/Web_De
+velopment_June/lecture2/app.js"
+Total sum is =30
+difference is =-10
+product is =200
+kavyasrivastava@Kavyas-MacBook-Air Web_Development_June % node "/Users/kavyasrivastava/June_Mirai_Track/Web_De
+velopment_June/lecture2/app.js"
+/Users/kavyasrivastava/June_Mirai_Track/Web_Development_June/lecture2/app.js:3
+let all = cal();
+          ^
+
+TypeError: cal is not a function
+    at Object.<anonymous> (/Users/kavyasrivastava/June_Mirai_Track/Web_Development_June/lecture2/app.js:3:11)
+    at Module._compile (node:internal/modules/cjs/loader:1854:14)
+    at Object..js (node:internal/modules/cjs/loader:1985:10)
+    at Module.load (node:internal/modules/cjs/loader:1577:32)
+    at Module._load (node:internal/modules/cjs/loader:1379:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.16.0
+kavyasrivastava@Kavyas-MacBook-Air Web_Development_June % node "/Users/kavyasrivastava/June_Mirai_Track/Web_De
+velopment_June/lecture2/tempCodeRunnerFile.js"
+/Users/kavyasrivastava/June_Mirai_Track/Web_Development_June/lecture2/tempCodeRunnerFile.js:1
+let all = cal();
+          ^
+
+ReferenceError: cal is not defined
+    at Object.<anonymous> (/Users/kavyasrivastava/June_Mirai_Track/Web_Development_June/lecture2/tempCodeRunnerFile.js:1:11)
+    at Module._compile (node:internal/modules/cjs/loader:1854:14)
+    at Object..js (node:internal/modules/cjs/loader:1985:10)
+    at Module.load (node:internal/modules/cjs/loader:1577:32)
+    at Module._load (node:internal/modules/cjs/loader:1379:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.16.0
+kavyasrivastava@Kavyas-MacBook-Air Web_Development_June % /Users/kavyasrivastava/Git_Commands/commands.txt
+zsh: permission denied: /Users/kavyasrivastava/Git_Commands/commands.txt
+kavyasrivastava@Kavyas-MacBook-Air Web_Development_June % git add .
+git commit -m "Updated"
+git push
+[main 0fa938f] Updated
+ 6 files changed, 44 insertions(+), 11 deletions(-)
+ delete mode 100644 auth.js
+ create mode 100644 lecture2/app.js
+ create mode 100644 lecture2/cal.js
+ create mode 100644 lecture2/file.txt
+ create mode 100644 lecture2/tempCodeRunnerFile.js
+ delete mode 100644 main.js
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 854 bytes | 854.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Skavya-06/Web_Development.git
+   82408de..0fa938f  main -> main
+kavyasrivastava@Kavyas-MacBook-Air Web_Development_June % 
