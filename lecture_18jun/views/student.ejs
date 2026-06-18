@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Data</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .heading{
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card{
+            background: white;
+            padding: 20px;
+            width: 250px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover{
+            transform: translateY(-5px);
+        }
+
+        .card h2{
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .card p{
+            margin: 8px 0;
+            color: #555;
+        }
+
+        .label{
+            font-weight: bold;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="heading">Students Data Profile</h1>
+
+    <div class="container">
+        <% allstudent.forEach((element)=> { %>
+            <div class="card">
+                <h2><%= element.name %></h2>
+                <p><span class="label">Age:</span> <%= element.age %></p>
+                <p><span class="label">Course:</span> <%= element.course %></p>
+            </div>
+        <% }) %>
+    </div>
+
+</body>
+</html>
